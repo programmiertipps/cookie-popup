@@ -1,15 +1,28 @@
-#cookie-popup { 
-  text-align: center; 
-  background: #fff;
-  position: fixed;
-  top: 0px; 
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  font-size:14px; 
-  line-height:20px;
-  padding: 20px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
-  }
+.hidden {
+	display: none;
+}
+#cookie-popup {
+	font-family: "Verdana", Arial, sans-serif;
+	font-size: 13px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	line-height: 20px;
+	padding: 20px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+#cookie-popup a {
+	color: #ff0000;
+}
+#page-wrapper {
+	max-width: 800px;
+	margin: 100px auto 0;
+	display: block;
+}
